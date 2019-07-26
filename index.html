@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+
+	<div class="container mt-4">
+		<div id="grid-container" class="row">
+			<div class="col"></div>
+			<div class="col"></div>
+			<div class="col"></div>
+		</div>
+	</div>
+
+	<div id="box-container">
+		<div id="box">
+			<button class="btn-close" onclick="hideModal()">X</button>
+			<button class="btn-next" onclick="next()">></button>
+			<button class="btn-prev" onclick="prev()"><</button>
+			<img id="box-inner" src="" alt="">
+		</div>
+		<div onclick="hideModal()" id="curtine"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="script.js"></script>
+
+  </body>
+</html>
